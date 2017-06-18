@@ -27,7 +27,7 @@ echo "Audit Test at $1 successfull"
 
 # Retrieve report
 # Retrieve report to local host directory
-scp root@$1:~/$currentDate.txt /test-tools/result-test/$currentDate.txt
+scp root@$1:~/result-test/$currentDate.txt ~/result-test/$currentDate.txt
 # Remove rreport in [host address]
 # wait for string path by mike
-cat /test-tools/result-test/$currentDate.txt
+cat ~/result-test/$currentDate.txt
